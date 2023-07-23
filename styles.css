@@ -22,7 +22,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ececec;
     text-decoration: none;
 }
 
@@ -52,6 +52,7 @@ main {
 .contact-form {
     max-width: 400px;
     margin: 0 auto;
+    letter-spacing: 3px;
 }
 
 .contact-form input,
@@ -72,6 +73,7 @@ main {
 }
 
 footer {
+    font-size: 15px;
     text-align: center;
     padding: 10px;
     background-color: #333;

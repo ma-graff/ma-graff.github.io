@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Matt Graff</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -22,6 +22,8 @@
             <div class="hero">
                 <h1>Your Name</h1>
                 <p>Welcome to my portfolio website!</p> <!---#TODO: fix-->
+                <img src="img/banner.jpg" alt="welcome banner">
+
             </div>
         </section>
         <section id="about">
@@ -46,10 +48,36 @@
             <div class="contact-form">
                 <h2>Contact Me</h2>
                 <form>
-                    <input type="text" placeholder="Your Name" required>
+                    <label for="name">enter name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
                     <textarea placeholder="Your Message" required></textarea>
                     <button type="submit">Send Message</button>
+
+                    <p>Select:</p>
+                    <input type="radio" name="selection" value="0-25" id="option-1">
+                    <label for="option-1">0-25</label>
+
+                    <input type="radio" name="selection" value="26-50" id="option-2">
+                    <label for="option-1">26-50</label>
+
+                    <input type="radio" name="selection" value="51+" id="option-3">
+                    <label for="option-1">51+</label>
+                    
+                    <br>
+                    <p>Dropdown:</p>
+                    <label for="question">Security question:</label>
+                    <select name="question" id="question">
+                        <option value="q1">Question 1</option>
+                        <option value="q2">Question 2</option>
+
+                    </select>
+                    <br><br>
+
+                    <label for="bio">your bio:</label><br>
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="type..."></textarea>
+
+                    <input type="date" name="date" id="date">
                 </form>
             </div>
         </section>
