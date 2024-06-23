@@ -120,7 +120,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:mgraffgeo@gmail.com"
+      url: "mailto:mgraffgeo@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
@@ -322,7 +322,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
       read_time: true
       comments: # true
