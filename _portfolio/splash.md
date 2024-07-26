@@ -1,20 +1,20 @@
 ---
-title: "Project Title"
+title: "Graphic Design Work"
 layout: splash
-permalink: /splash-page/
+permalink: /work/design-work
 collection: _portfolio
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/splash-banner.jpg
-  actions:
-    - label: "Open Map"
-      url: "https://www.example.com"
+  # actions:
+  #   - label: "Explore more"
+  #     url: "https://www.example.com"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Collection of past work, including logo design, merchandise design, and more."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'I completed a month-long work experience as a graphic design student, took specialized classes in high school, and continue to work on passion projects that showcase my skills and creativity in graphic design.'
 feature_row:
   - image_path: assets/images/postgis.png
     alt: "placeholder image 1"
