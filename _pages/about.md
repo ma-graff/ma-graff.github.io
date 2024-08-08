@@ -20,7 +20,7 @@ Over the years, I have gained extensive experience in various programming langua
 
 ## Contact
 
-If you have any questions or would like to collaborate on a project, feel free to reach out to me. You can find my contact information on the sidebar.
+Please feel free to reach out to me. You can [email](mailto:mggeospatial@gmail.com) me or use my other contact information on the sidebar to the left.
 
 Thank you for visiting my website!
 
