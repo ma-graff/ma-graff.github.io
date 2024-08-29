@@ -7,12 +7,12 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/splash-banner.jpg
+  overlay_image: /assets/images/splash_bg.jpg
   # actions:
   #   - label: "Explore more"
   #     url: "https://www.example.com"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "4th-year Geography & Computer Science student"
+excerpt: "Geospatial Software Developer"
 intro: 
   - excerpt: 'I am a fourth-year Geography and Computer Science (Geomatics) student at the University of Victoria, passionate about impacting our world using mapping technology. With a strong foundation in geospatial software develpment, 
   I have hands-on professional and personal experience with geospatial solutions, as well as versatile programming skills with common technologies used in the industry.<br /><br />
@@ -22,7 +22,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "UVicMap"
     excerpt: "Interactive 3D map of the University of Victoria, aimed to help new students find facilities on-campus."
-    url: "#test-link"
+    url: "/uvicmap/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/geobc.jpg
@@ -32,14 +32,14 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: assets/images/weather.jpg
-    title: "Weather Reporter"
-    excerpt: "Tool that utilizes QGIS and Python to generate printable or interactive weather reports."
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: assets/images/github.jpg
+    title: "GitHub"
+    excerpt: "View my open-source contributions and personal projects on GitHub."
+    url: "https://github.com/ma-graff"
+    btn_label: "GitHub"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/uvic.jpg
+  - image_path: /assets/images/resume.jpg
     alt: "placeholder image 2"
     title: "Full Resume"
     excerpt: 'View my full resume, with details of my experience, skills, and goals.'
@@ -47,15 +47,15 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/uvic.jpg
+  - image_path: /assets/images/blogposts.jpg
     alt: "placeholder image 2"
-    title: "GitHub Contributions"
-    excerpt: 'View my open-source contributions and personal projects on GitHub.'
-    url: "https://github.com/ma-graff"
-    btn_label: "GitHub"
+    title: "Blog Posts"
+    excerpt: 'View my blog posts.'
+    url: "/"
+    btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/uvic.jpg
+  - image_path: /assets/images/reachout.jpg
     alt: "placeholder image 2"
     title: "Reach Out"
     excerpt: 'I am always excited to discuss new opportunities and collaborations. Please feel free to reach out if you have any inquiries or if you are interested in my work.'
@@ -68,8 +68,9 @@ feature_row4:
 
 {% include feature_row %}
 
+{% include feature_row id="feature_row4" type="center" %}
+
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
