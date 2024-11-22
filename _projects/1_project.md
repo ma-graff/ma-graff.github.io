@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: UvicMap
+description: Interactive map of the University of Victoria
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: personal
 related_publications: true
 ---
 
