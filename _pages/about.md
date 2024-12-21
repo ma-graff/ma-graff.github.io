@@ -18,6 +18,6 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I'm Matt - I'm a 3rd year Geography & Computer Science (Geomatics) student at the University of Victoria.
 
-I'm interested in visalizing all types of data, especially geographic data. I'm also interested in UI/UX design, remote sensing, and software development. I have professional experience in Python, AWS, SQL, and ArcGIS at GeoBC and Avenue Road Properties. I hope to gain more experience through personal projects in Tableau, D3, Figma, and more.
+[Check out my projects](/projects) and my [experience](/resume), I'm mostly interested in geospatial data, visualizing data, and UX/UI design.
 
-Currently, I'm doing classes at UVic and making weather reports for Avenue Road Properties. If you want to get in touch, please use the links below.
+Currently, I'm looking for a co-op for Fall 2025. If you want to get in touch, please use the links below.
