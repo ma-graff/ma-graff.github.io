@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UvicMap
+title: UVicMap
 description: Interactive map of the University of Victoria
 img: assets/img/12.jpg
 importance: 1

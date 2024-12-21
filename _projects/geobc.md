@@ -1,81 +1,40 @@
 ---
 layout: page
 title: GeoBC Work
-description: List of projects I worked on at GeoBC.
-img: assets/img/12.jpg
+description: Projects I worked on at GeoBC, including STAC, AWS, Postgres, GeoServer-related work.
+img: assets/img/geobc.jpg
 importance: 1
 category: professional
-related_publications: true
+related_publications: false
+typograms: true
+toc:
+    beginning: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Cloud-Optimized GeoTIFFs
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```typograms
++-----------------------+                   +------------------------+
+|  Proprietary Formats  | convert, organize | COGs In Cloud Storage, |
+|   in On Prem Storage  |-----------------> |   More Accessibility   |
++-----------------------+                   +------------------------+
 ```
+A project that really interested me was this one. Converting our existing historical geographic data like wildfire imagery to new, faster formats
+was something that peaked my interest. I worked on a plan to serve COGs (Cloud-Optimized GeoTIFFs) through WMS via GeoServer, hosted on S3 cloud storage. Although this plan did not get finished in my term, it was an excellent learning opportunity and introduction to cloud geospatial.
 
-{% endraw %}
+
+The following PDF was a slide deck I prepared to outline the potential process:
+<object data="https://ma-graff.github.io/assets/pdf/geoserverS3.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://ma-graff.github.io/assets/pdf/geoserverS3.pdf"> 
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://ma-graff.github.io/assets/pdf/geoserverS3.pdf">Download PDF</a>.</p>
+
+</object>
+
+<br>
+## NG-9-1-1 & Digital Road Atlas
+
+I developed an ArcGIS Pro tool in Python to automate the comparison of Next Generation 9-1-1 (NG911) roads and address points.
+The NENA standard for NG-9-1-1 data was different from what we were using, and thus the existing unmatched addressing script
+needed to be updated. This was done using Python - specifically geopandas.
+I also collaborated on the DRA throughout my time at GeoBC, with the Atlas team.
