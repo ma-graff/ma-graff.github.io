@@ -14,14 +14,16 @@ toc:
 
 ## Cloud-Optimized GeoTIFFs
 
+### Overview
+Converting our existing historical geographic data, such as wildfire imagery, into newer, faster formats was a project that really interested me. I developed a plan to serve Cloud-Optimized GeoTIFFs (COGs) through Web Map Services (WMS) using GeoServer, with storage on Amazon S3. Although this plan was not fully completed during my term, it provided an excellent learning opportunity and a strong introduction to cloud-based geospatial data management.
+
+### Main Idea
 ```typograms
 +-----------------------+                   +------------------------+
 |  Proprietary Formats  | convert, organize | COGs In Cloud Storage, |
 |   in On Prem Storage  |-----------------> |   More Accessibility   |
 +-----------------------+                   +------------------------+
 ```
-A project that really interested me was this one. Converting our existing historical geographic data like wildfire imagery to new, faster formats
-was something that peaked my interest. I worked on a plan to serve COGs (Cloud-Optimized GeoTIFFs) through WMS via GeoServer, hosted on S3 cloud storage. Although this plan did not get finished in my term, it was an excellent learning opportunity and introduction to cloud geospatial.
 
 
 The following PDF was a slide deck I prepared to outline the potential process:

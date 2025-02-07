@@ -1,81 +1,46 @@
 ---
 layout: page
-title: Weather Database & Reports
-description: 
+title: Weather Reports
+description: Weather forecasting using automated API calls, SQLite, Python.
 img: assets/img/weather.png
 importance: 1
 category: professional
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
+At **Avenue Road**, I was responsible for aggregating and analyzing **historical and forecast weather data** using **Python** and **SQLite**. My work involved automating **API calls** and utilizing **Selenium for web scraping** to collect weather data, structuring it in a database, and generating **weekly reports** with detailed **weather and snow forecasts**. These reports played a key role in **data-driven decision-making** for clients.  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Key Responsibilities
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- Automated Data Collection 
+  - Integrated multiple **weather APIs** to fetch **historical and forecast data**.  
+  - **Utilized Selenium** to scrape weather-related data from websites when APIs lacked specific information.  
+  - Scheduled automated API calls and web scraping tasks using **Python scripts**, ensuring up-to-date data.  
+  - Processed, cleaned, and stored data in an **SQLite database** for structured analysis.  
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Database Management & Analysis
+  - Maintained a database of **thousands of weather records**, ensuring **consistency and reliability**.  
+  - Designed optimized **SQL queries** for efficient data retrieval and analysis.  
+  - Used **Pandas and NumPy** to process weather data, identify trends, and generate insights.  
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Forecast Reporting & Insights
+  - Produced **8 detailed weather forecasts per month**, including **snow accumulation, temperature trends, and precipitation probabilities**.  
+  - Delivered **data-driven reports** that supported **client planning and operational decisions**.  
+  - Used **Matplotlib and Seaborn** to visualize weather trends, making forecasts more actionable.  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Technologies Used  
+- **Python** – Data collection, processing, and automation.  
+- **Selenium** – Web scraping for weather data extraction.  
+- **APIs** – Automated retrieval of forecast and historical weather data.  
+- **SQLite** – Structured storage of weather records.  
+- **Pandas / NumPy** – Data manipulation and statistical analysis.  
+- **Matplotlib / Seaborn** – Data visualization for trend analysis.  
+- **Scheduling (e.g., Cron Jobs, Task Scheduler)** – Automating data retrieval and report generation.  
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Impact & Achievements
+✅ Enabled **data-driven decision-making** for clients through **accurate and timely weather forecasts**.  
+✅ Maintained a **reliable weather database** with thousands of records for continuous analysis.  
+✅ Automated **API calls and web scraping**, reducing manual effort and improving **data collection efficiency**.  
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This project strengthened my expertise in **data engineering, web scraping, API integration, and predictive analysis**, providing **valuable insights for weather-dependent decision-making**.  
