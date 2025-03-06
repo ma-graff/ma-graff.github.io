@@ -33,9 +33,9 @@ This project analyzes Montreal's BIXI bike share system data to uncover usage pa
 
 - Parc Jean Drapeau to itself is the most popular
 
-### Most Popular Start Stations
+### Most Popular Start Stations in 2024
 
-[Click here to see the map.](assets/html/map.html)
+[Click here to see the map.](https://ma-graff.github.io/assets/html/map.html)
 
 ## Data Structure
 
