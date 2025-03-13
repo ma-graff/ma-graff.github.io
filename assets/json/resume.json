@@ -50,25 +50,27 @@
   ],
   "certificates": [
     {
+      
       "name": "Agile Foundations",
       "date": "2024-06-15",
       "issuer": "LinkedIn Learning",
-      "url": "",
-      "icon": "fa-solid fa-location-dot"
+      "noURL" : true,
+      "nolink" : true,
+      "icon": "fa-solid fa-star"
     },
     {
       "name": "Advanced Python 3",
       "date": "2023-08-23",
       "issuer": "Codecademy.com",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "noURL" : true,
+      "icon": "fa-solid fa-star"
     }
   ],
   "skills": [
     {
       "name": "Geography",
       "level": "",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-map",
       "keywords": [
         "GIS",
         "Remote Sensing",
@@ -80,7 +82,7 @@
     {
       "name": "Computer Science",
       "level": "",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-computer",
       "keywords": [
         "Python (pandas, numpy, matplotlib)",
         "SQL, PostgreSQL",
@@ -94,18 +96,18 @@
     {
       "language": "English",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     },
     {
       "language": "French",
       "fluency": "Professional fluency",
-      "icon": ""
+      "icon": "fa-solid fa-comments"
     }
   ],
   "interests": [
     {
       "name": "General",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-globe",
       "keywords": [
         "City Planning and Urban Design",
         "Transportation Planning",
