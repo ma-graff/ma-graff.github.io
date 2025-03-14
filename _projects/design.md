@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design Projects
+title: Design/UX Projects
 description: Various design projects 
 img: assets/img/IMG_2394.JPG
 importance: 1
@@ -15,6 +15,27 @@ A collection of my design work, from merchandise and stickers to branding and il
 - Adobe Photoshop
 - Adobe Illustrator
 - Adobe InDesign
+- Figma
+
+## [EasyGrid Dashboard Mockup](https://www.figma.com/proto/eBTQuvVGvuSu48coz528jz/EasyGrid?node-id=24-2417&starting-point-node-id=24%3A2417&t=vp4JTCMSBDWakfCd-1)
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1736882451498.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1736882278172.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/figmaview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+In SENG 321 (Requirements Engineering), I collaborated with a team to design and prototype a system for monitoring power usage in remote Canadian power grids. Working closely with an industry mentor and with other groups in a client-designer relationship, we gathered requirements, ensured alignment with stakeholder needs, and I developed a **functional prototype in Figma** to address real-world challenges in remote energy management. We then presented our prototype to real investors and industry experts.
+
+[Click this link to view the Figma mockup](https://www.figma.com/proto/eBTQuvVGvuSu48coz528jz/EasyGrid?node-id=24-2417&starting-point-node-id=24%3A2417&t=vp4JTCMSBDWakfCd-1).
+
 
 ## Oak Bay High Sweaters
 
