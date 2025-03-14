@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design/UX Projects
+title: Design Projects
 description: Graphic design, UI/UX design projects
 img: assets/img/IMG_2394.JPG
 importance: 1
