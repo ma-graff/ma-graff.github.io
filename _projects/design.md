@@ -2,7 +2,7 @@
 layout: page
 title: Design Projects
 description: Various design projects 
-img: assets/img/bixi.png
+img: assets/img/IMG_2394.JPG
 importance: 1
 category: personal
 images:
