@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GeoBC Work
-description: Projects I worked on at GeoBC, including STAC, AWS, Postgres, GeoServer-related work.
+title: GeoBC Projects
+description: STAC-API, AWS, Postgres, GeoServer, Python, Automation
 img: assets/img/geobc.jpg
 importance: 1
 category: professional

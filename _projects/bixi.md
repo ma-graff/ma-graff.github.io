@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bixi Analysis
-description: Montréal bike share geospatial/statistical analysis using R, Leaflet.
+description: Geo-Statistical Analysis, R, Leaflet
 img: assets/img/bixi.png
 importance: 1
 category: personal

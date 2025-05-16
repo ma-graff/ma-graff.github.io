@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Design Projects
-description: Graphic design, UI/UX design projects
+description: Graphic Design, UI/UX
 img: assets/img/IMG_2394.JPG
 importance: 1
 category: personal

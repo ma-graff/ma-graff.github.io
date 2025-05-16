@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Weather Reports
-description: Weather forecasting using automated API calls, SQLite, Python.
+title: Weather Analysis
+description: Python, SQL, Data Engineering
 img: assets/img/weather.png
 importance: 1
 category: professional

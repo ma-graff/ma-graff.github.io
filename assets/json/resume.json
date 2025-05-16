@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Matt Graff",
-    "label": "Geography and Computer Science (Geomatics) Student at UVic",
+    "label": "Computer Science & Geography (Geomatics) Student at UVic",
     "image": "",
     "email": "mattgraff0@gmail.com",
-    "phone": "(250) 896-8985",
-    "url": "mattgraff.ca",
+    "phone": "",
+    "url": "",
     "summary": "Passionate about leveraging geospatial, software and design to solve real-world challenges, I specialize in Python (ArcPy, Pandas), Java, SQL (PostGIS), and ESRI’s ArcGIS suite. I enjoy creating intuitive, data-driven solutions that blend mapping, analytics, and UI/UX design.",
     "location": {
       "address": "Gordon Head",
