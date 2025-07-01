@@ -10,9 +10,9 @@
     "location": {
       "address": "Gordon Head",
       "postalCode": "",
-      "city": "Victoria",
+      "city": "Montréal",
       "countryCode": "CA",
-      "region": "British Columbia"
+      "region": "Québec"
     }
   },
   "work": [
@@ -110,7 +110,7 @@
     },
     {
       "language": "French",
-      "fluency": "Professional fluency",
+      "fluency": "Intermediate",
       "icon": "fa-solid fa-comments"
     }
   ],
