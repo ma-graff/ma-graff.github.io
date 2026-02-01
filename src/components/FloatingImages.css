@@ -1,0 +1,173 @@
+.floating-images {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-images__orbit {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.floating-images__item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
+    margin-top: -35px;
+    animation: orbit-item 60s linear infinite, float-gentle 3s ease-in-out infinite;
+    animation-delay: var(--delay), var(--delay);
+}
+
+.floating-images__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 20px rgba(28, 37, 65, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.floating-images__img:hover {
+    transform: scale(2);
+    z-index: 100;
+    box-shadow: 0 12px 40px rgba(28, 37, 65, 0.25);
+    border-color: var(--accent-primary);
+}
+
+/* Caption - hidden by default, shows on hover */
+.floating-images__caption {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.5);
+    padding: 4px 10px;
+    background: rgba(28, 37, 65, 0.85);
+    backdrop-filter: blur(8px);
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease;
+    z-index: 101;
+}
+
+.floating-images__item:hover .floating-images__caption {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    bottom: -35px;
+}
+
+.floating-images__item:hover {
+    z-index: 100;
+    animation-play-state: paused;
+}
+
+/* Individual orbit animation - images stay upright */
+@keyframes orbit-item {
+    0% {
+        transform: rotate(0deg) translateX(calc(180px * var(--radius))) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(calc(180px * var(--radius))) rotate(-360deg);
+    }
+}
+
+/* Gentle floating bob */
+@keyframes float-gentle {
+
+    0%,
+    100% {
+        margin-top: -35px;
+    }
+
+    50% {
+        margin-top: -43px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .floating-images {
+        width: 350px;
+        height: 350px;
+    }
+
+    .floating-images__item {
+        width: 55px;
+        height: 55px;
+        margin-left: -27.5px;
+        margin-top: -27.5px;
+    }
+
+    @keyframes orbit-item {
+        0% {
+            transform: rotate(0deg) translateX(calc(140px * var(--radius))) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translateX(calc(140px * var(--radius))) rotate(-360deg);
+        }
+    }
+
+    @keyframes float-gentle {
+
+        0%,
+        100% {
+            margin-top: -27.5px;
+        }
+
+        50% {
+            margin-top: -33.5px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-images {
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+    }
+
+    .floating-images__item {
+        width: 45px;
+        height: 45px;
+        margin-left: -22.5px;
+        margin-top: -22.5px;
+    }
+
+    @keyframes orbit-item {
+        0% {
+            transform: rotate(0deg) translateX(calc(110px * var(--radius))) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translateX(calc(110px * var(--radius))) rotate(-360deg);
+        }
+    }
+
+    @keyframes float-gentle {
+
+        0%,
+        100% {
+            margin-top: -22.5px;
+        }
+
+        50% {
+            margin-top: -26.5px;
+        }
+    }
+}
