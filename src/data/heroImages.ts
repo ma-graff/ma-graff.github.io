@@ -9,7 +9,7 @@ export interface HeroImage {
 export const heroImages: HeroImage[] = [
     {
         id: 1,
-        src: 'https://s1.it.atcdn.net/wp-content/uploads/2018/02/Hero-46190-Credit-FR-%C2%A9-Eva-Blue-Tourisme-Montreal-EN-Credit-%C2%A9-Eva-Blue-Tourisme-Montreal.jpg',
+        src: 'https://parcolympique.qc.ca/wp-content/uploads/2023/06/aerien.jpg',
         alt: 'Montreal cityscape',
         caption: 'I live in Montreal, Canada',
     },
@@ -21,7 +21,7 @@ export const heroImages: HeroImage[] = [
     },
     {
         id: 3,
-        src: 'https://ires.ubc.ca/files/2021/09/Uvic.png',
+        src: 'https://www.edarabia.com/wp-content/uploads/2013/07/university-of-victoria-logo-canada.jpg',
         alt: 'UVic',
         caption: 'I went to UVic for my undergrad',
     },
